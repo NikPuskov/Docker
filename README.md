@@ -23,3 +23,11 @@
 7 Собранный образ необходимо запушить в docker hub и дать ссылку на ваш репозиторий.
 	
    `https://hub.docker.com/repository/docker/nikpuskov/nginx_alpine`
+
+Стенд на Vagrant с боксом ubuntu/jammy64 с установкой Docker, созданием образа и запуском Docker-контейнера (Vagrantfile, Dockerfile и измененная дефолтная страница Nginx прилагается)
+
+`vagrant up`
+
+`vagrant ssh`
+
+`curl localhost`
