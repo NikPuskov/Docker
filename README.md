@@ -24,7 +24,9 @@
 	
    `https://hub.docker.com/repository/docker/nikpuskov/nginx_alpine`
 
-Стенд на Vagrant с боксом ubuntu/jammy64 с установкой Docker, созданием образа и запуском Docker-контейнера (Vagrantfile, Dockerfile и измененная дефолтная страница Nginx прилагается)
+Стенд на Vagrant с боксом ubuntu/jammy64 с установкой Docker, установкой плагина Docker-compose, созданием Docker-образа и запуском Docker-контейнера 
+
+(Vagrantfile, Dockerfile и измененная дефолтная страница Nginx прилагается)
 
 `vagrant up`
 
