@@ -33,3 +33,13 @@
 `vagrant ssh`
 
 `curl localhost`
+
+Пуш образа в docker hub
+
+`sudo docker login -u nikpuskov`
+
+`enter password`
+
+`sudo docker tag alpine nikpuskov/nginx_alpine:alpine`
+
+`sudo docker push nikpuskov/nginx_alpine:alpine`
